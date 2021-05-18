@@ -8,7 +8,7 @@ var employeeController = require('../controller/employeeController');
 router.get('/', function (req, res) {
     res.json({
         status: `Api is live`,
-        message: `Access Employee details on http://localhost:8080/api/employee`,
+        message: `Access Employee details`,
     });
 });
 
